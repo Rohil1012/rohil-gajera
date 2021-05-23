@@ -790,9 +790,13 @@ fonts
  
  .portfolio-item-thumbnail img {
      width           : 100%;
-     /* height       : 170px; */
+     height       : 100%;
      border-radius   : 10px;
  }
+
+.portfolio-item-thumbnail:hover img {
+    transform: scale(1.1);
+}
  
  .portfolio-item-details {
      display: none;
