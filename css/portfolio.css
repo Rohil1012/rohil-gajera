@@ -793,10 +793,6 @@ fonts
      height       : 100%;
      border-radius   : 10px;
  }
-
-.portfolio-item-thumbnail:hover img {
-    transform: scale(1.1);
-}
  
  .portfolio-item-details {
      display: none;
