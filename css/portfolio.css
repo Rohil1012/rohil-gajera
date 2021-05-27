@@ -993,8 +993,8 @@ fonts
      display         : inline-flex;
      align-items     : center;
      justify-content : center;
-     height          : 40px;
-     width           : 40px;
+     height          : 50px;
+     width           : 50px;
      background-color: var(--white-alpha-25);
      border          : 1px solid var(--white-alpha-40);
      color           : var(--main-color);
