@@ -251,6 +251,16 @@ fonts
          transform: rotate(360deg);
      }
  }
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
+}
  
  
  /*-------------------- Background Circles-------------------------------------- */
@@ -991,6 +1001,10 @@ fonts
      border-radius   : 50%;
      margin          : 6px 4px 0 0;
      transition      : all 0.3s ease;
+     animation         : mover 1s infinite alternate;
+    -moz-box-shadow   : 2px 2px 5px 0px var(--blue-dark);
+    -webkit-box-shadow: 2px 2px 5px 0px var(--blue-dark);
+    box-shadow        : 2px 2px 5px 0px var(--blue-dark);
  }
  
  .contact-info-item .social-links a:hover {
