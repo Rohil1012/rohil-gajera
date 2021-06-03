@@ -1008,6 +1008,7 @@ fonts
     position       : relative;
     overflow       : hidden;
     animation      : mover .5s infinite alternate;
+    background-color: var(--white-alpha-25);
 }
 
 .social-links a::after {
