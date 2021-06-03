@@ -991,7 +991,7 @@ fonts
  }
  
 .social-links {
-    display   : flex;
+    display   : inline-flex;
     margin-top: 30px;
 }
 
