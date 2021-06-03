@@ -989,50 +989,8 @@ fonts
      text-transform: capitalize;
      margin        : 0 0 5px;
  }
- 
-.social-links {
-    display   : inline-flex;
-    margin-top: 30px;
-}
 
-.social-links .icon {
-    width          : 50px;
-    height         : 50px;
-    box-shadow     : 2px 2px 5px 0px var(--blue-dark);
-    margin         : 0 12px;
-    text-align     : center;
-    line-height    : 45px;
-    font-size      : 30px;
-    text-decoration: none;
-    color          : var(--main-color);
-    border-radius  : 50%;
-    position       : relative;
-    overflow       : hidden;
-    animation      : mover .5s infinite alternate;
-    background-color: var(--white-alpha-25);
-}
-
-.social-links a::after {
-    content   : '';
-    width     : 50px;
-    height    : 50px;
-    z-index   : -1;
-    position  : absolute;
-    bottom    : -50px;
-    left      : 0;
-    background: linear-gradient(to bottom, var(--main-color1), var(--main-color));
-    transition: 0.3s;
-}
-
-.social-links .icon:hover {
-    color: var(--white);
-}
-
-.social-links a:hover::after {
-    bottom: 0;
-}
-
-/*  .contact-info-item .social-links a {
+ .contact-info-item .social-links a {
      display         : inline-flex;
      align-items     : center;
      justify-content : center;
@@ -1051,7 +1009,7 @@ fonts
  .contact-info-item .social-links a:hover {
      color           : var(--white);
      background-color: var(--main-color);
- } */
+ }
  
  .contact-info-item .service-link i {
      display         : inline-flex;
