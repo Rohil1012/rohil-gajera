@@ -8,6 +8,7 @@ fonts
  -------------------- */
  :root {
      --main-color          : #e02f6b;
+  --main-color1         : #e25484;
      --blue                : #0000ff;
      --blue-dark           : #18293c;
      --orange              : #ffa500;
@@ -1019,7 +1020,7 @@ fonts
     position  : absolute;
     bottom    : -50px;
     left      : 0;
-    background: linear-gradient(to bottom, var(--main-color), var(--blue-dark));
+    background: linear-gradient(to bottom, var(--main-color1), var(--main-color));
     transition: 0.3s;
 }
 
