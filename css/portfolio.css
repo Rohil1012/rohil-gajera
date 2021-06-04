@@ -15,6 +15,7 @@ fonts
      --green-yellow        : #cddc39;
      --pink-light          : #efa2b4;
      --cyan-light          : #aef1ee;
+     --cyan-light1         : #08e4dc;
      --white               : #ffffff;
      --white-alpha-40      : rgba(255, 255, 255, 0.40);
      --white-alpha-25      : rgba(255, 255, 255, 0.25);
@@ -230,6 +231,18 @@ fonts
          transform: scale(1);
      }
  }
+
+@keyframes zoomOutIn {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.4);
+    }
+}
  
  @keyframes bounceTop {
  
