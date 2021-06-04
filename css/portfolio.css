@@ -319,6 +319,15 @@ fonts
      opacity         : 0.6;
  }
  
+.bg-circles .circle-5 {
+    height          : 90px;
+    width           : 90px;
+    background-color: var(--cyan-light1);
+    left            : 600px;
+    top             : 86%;
+    opacity         : 0.6;
+    animation       : zoomOutIn 2s linear infinite;
+}
  
  /*-------------------- Overlay------------------------------------------------- */
  
