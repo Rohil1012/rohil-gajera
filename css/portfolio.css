@@ -1042,6 +1042,10 @@ fonts
     transition   : 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
+.contact-info-item .social-icon .icon span a{
+    color: var(--main-color);
+}
+
 .social-icon .icon span i {
     line-height: 50px;
     font-size  : 21px;
@@ -1080,7 +1084,7 @@ fonts
     transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
-.social-icon .icon:hover span {
+.social-icon .icon:hover span a{
     color: #fff;
 }
 
