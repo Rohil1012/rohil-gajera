@@ -1230,11 +1230,12 @@ fonts
      .pp-header h3 {
          font-size: 20px;
      }
-    .contact-info-item .socail-icon {
+  
+     .contact-info-item .social-icon {
         display: block;
-    }
+     }
 
-    .contact-info-item .socail-icon .icon {
+     .contact-info-item .social-icon .icon {
         margin-top: 15px;
-    }
+     }
  }
