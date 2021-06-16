@@ -765,7 +765,7 @@ fonts
     transform: translate(-80%, -80%) rotate(90deg);
 }
 
-.active {
+.active1 {
     transform: translate(0) rotate(0);
 }
 
