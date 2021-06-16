@@ -1093,6 +1093,7 @@ fonts
 
 .contact-info-item .social-icon {
     display: inline-flex;
+    animation       : mover .5s infinite alternate;
 }
 
 .contact-info-item .social-icon .icon {
