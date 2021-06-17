@@ -777,7 +777,7 @@ fonts
     font-size     : 1rem;
     margin        : 4px 4px 4px 0;
     text-transform: capitalize;
-     cursor        : pointer;
+    cursor        : pointer;
 }
 
 .left_container .skills div:hover {
